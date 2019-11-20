@@ -1,13 +1,13 @@
 /*
  * Global functions
  */
-function getRandomNumber(min, max) {
+const getRandomNumber = (min, max) => {
   min = Math.ceil(min);
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function generatePassword(length = 20, mixedCase = true) {
+const generatePassword = (length = 20, mixedCase = true) => {
   const charset = 'abcdefghijklmnopqrstuvwxyz0123456789!§$%&/()=?#,;.:-_';
   const highestIndex = charset.length - 1;
   let password = '';
@@ -35,24 +35,22 @@ const fields = {
   mixedCases: document.getElementById('mixedCases')
 };
 
-function updatePassword() {
+const updatePassword = () => {
   const length = parseInt(fields.length.value, 10);
   const mixedCases = fields.mixedCases.checked;
-
   output.innerHTML = generatePassword(length, mixedCases);
 }
 
 updatePassword();
 
-form.addEventListener('submit', function(event) {
+form.addEventListener('submit', (event) => {
   event.preventDefault();
   updatePassword();
 });
 
-Object.keys(fields).forEach(function(key) {
+Object.keys(fields).forEach((key) => {
   const field = fields[key];
 
-  field.addEventListener('change', function() {
-    updatePassword();
-  });
+  field.addEventListener('change',
+    updatePassword);
 });
