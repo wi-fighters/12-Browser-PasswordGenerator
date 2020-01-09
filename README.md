@@ -26,7 +26,7 @@ Examples for generated passwords: - 876FocMkcCv98teXc(Ov - %lfXcrLt-#ke3r6R5§-?
 
 
 
-Bonus version: 1. Add an input field to define the length of the password. 2. Add a checkbox to define if the password should youse mixed cases. 3. Generate a new password on change of the input elements.
+Bonus version: 1. Add an input field to define the length of the password. 2. Add a checkbox to define if the password should use mixed cases. 3. Generate a new password on change of the input elements.
 
 1. **Optional:** Free free to use Bootstrap for styling.
 
