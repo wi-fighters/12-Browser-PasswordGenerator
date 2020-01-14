@@ -1,6 +1,14 @@
 # Password Generator
 
-Create a password generator WebApp;
+Description:
+
+- This app generates passwords.
+
+- There should be a Generate Password button which the user can click to show a new password using all letters and different characters. 
+
+- By default, the password generated should use mixed cases (both lowercase and uppercase).
+
+Create a password generator WebApp with the following instructions:
 
 1. Use the constant "charset" in your function (move it there). It contains all characters to use.
 
