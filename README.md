@@ -19,7 +19,7 @@ const charset = 'abcdefghijklmnopqrstuvwxyz0123456789!§$%&/()=?#,;.:-_';
 2. Your function should have 2 arguments:
 
    - length (Number) The length of the password
-   - mixedCase (Boolean) Wether or not to use mixed cases (lowercase + uppercase)
+   - mixedCase (Boolean) Whether or not to use mixed cases (lowercase + uppercase)
 
 3. If the second argument is true, use uppercase for every third character.
 4. Use the function `getRandomInt()` to generate random numbers where you need them.
@@ -29,9 +29,14 @@ const charset = 'abcdefghijklmnopqrstuvwxyz0123456789!§$%&/()=?#,;.:-_';
 
 Examples for generated passwords: - 876FocMkcCv98teXc(Ov - %lfXcrLt-#ke3r6R5§-? - Nd1Z\$yRx
 
-Bonus version: 1. Add an input field to define the length of the password. 2. Add a checkbox to define if the password should youse mixed cases. 3. Generate a new password on change of the input elements.
+Bonus version: 
+1. Add an input field to define the length of the password. 
 
-1. **Optional:** Free free to use Bootstrap for styling.
+2. Add a checkbox to define if the password should use mixed cases. 
+
+3. Generate a new password on change of the input elements.
+
+4. **Optional:** Free free to use Bootstrap for styling.
 
 > Hint: Refer to the representation below, for an idea of what your result should look like.
 
